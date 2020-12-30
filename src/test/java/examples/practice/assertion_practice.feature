@@ -19,6 +19,7 @@ Feature: Practice Assertion The Karate Way
     # assert the name is Tucky , last number is 54
     * assert myJson.name == 'Tucky'
     * assert myJson.nums[2] == 54
+    * match myJson.name == 'Tucky'
 
 
 
