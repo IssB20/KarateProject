@@ -2,7 +2,7 @@ Feature: Spartans App Feature testing
 # Use this ip address that has spartan app with no auth
 # So we can just focus on writing feature file correctly
   Background:
-    * url 'http://52.201.187.226:8000/'
+    * url spartan_base_url
 #    * path '/api'
 
   Scenario: User should be able to call /api/hello to get greeting
